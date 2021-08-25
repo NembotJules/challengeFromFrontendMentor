@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif ;
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   flex-direction: column;
+   min-height: 100vh;
+}
+
+.card-container {
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+   
+   
+}
+
+
+
+.hero {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px; 
+}
+
+.description {
+    margin-top: 20px; 
+    padding-left: 80px; 
+    padding-right: 80px;
+    font-size: 16px;
+}
+
+
+.title{
+    color:  hsl(223, 47%, 23%);
+    font-size: 32px;
+    padding-top: 50px ;
+    font-family: inherit;
+    font-weight: 900;
+}
+
+p {
+    color:  hsl(224, 23%, 55%);
+    font-family: inherit;
+    font-weight: 500;
+}
+
+h4 {
+    color: hsl(223, 47%, 23%); 
+}
+
+.music-container {
+    background-color:  hsl(225, 100%, 98%);
+    display: flex;
+    width: 300px; 
+    margin: 20px;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    border-radius: 15px;
+    padding: 10px; 
+}
+
+a {
+    text-decoration: none;
+    color:hsl(245, 75%, 52%);
+    font-family: inherit;
+    font-weight: bold;
+}
+
+a:hover {
+    color: hsl(245, 87%, 63%); 
+
+}
+
+.Annual-plan-container{
+    display: flex;
+    flex-direction: column;
+    margin: 20px; 
+}
+.price {
+    color: hsl(224, 23%, 55%); 
+    font-size: 16px;
+   
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    padding: 20px; 
+    
+   
+    
+}
+.Payment-button {
+    color: white; 
+    background-color: hsl(245, 75%, 52%);
+    width: 300px; 
+    font-family: inherit;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 10px;
+    border: none; 
+    margin : 10px;
+    cursor: pointer;
+    box-shadow: 7px 9px 5px hsl(225, 100%, 98%);
+}
+
+.Payment-button:hover {
+    background-color:hsl(245, 87%, 63%);
+}
+
+.Cancel-button{
+    width: 300px; 
+    font-family: inherit;
+    font-weight: 900;
+    padding: 10px; 
+    border-radius: 10px; 
+    border: none; 
+    background-color: white;
+    color:  hsl(224, 23%, 55%);
+    cursor: pointer;
+}
+
+.Cancel-button:hover{
+    color:hsl(223, 47%, 23%)
+}
